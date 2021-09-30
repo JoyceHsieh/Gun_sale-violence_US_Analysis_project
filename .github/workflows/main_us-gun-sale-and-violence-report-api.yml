@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'us-gun-sale-and-violence-report-API'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_901EB09B9DCD4E638775BE140B0553F5 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F053C3E36FEB41F8B926F24FA9DBF583 }}
