@@ -23,6 +23,7 @@ gun_sale = Base.classes.Gun_sale
 gun_violence_2019 = Base.classes.Gun_violence_2019
 gun_violence_2020 = Base.classes.Gun_violence_2020
 gun_violence_2021 = Base.classes.Gun_violence_2021
+clean_data=Base.classes.clean_data
 
 
 #Set up Flask
@@ -47,6 +48,7 @@ def welcome():
             <br> <a href=/api/v1.0/gunviolence2019>gun violence mass shooting on 2019</a>
             <br> <a href=/api/v1.0/gunviolence2020>gun violence mass shooting on 2020</a>
             <br> <a href=/api/v1.0/gunviolence2021>gun violence mass shooting on 2021</a>
+            <br> <a href=/api/v1.0/cleandata> Completed data includ accurate Lat & Lon from 2019 to 2021 </a>
             """
     return html
 
@@ -176,6 +178,40 @@ def gunviolence_2021():
         
 
     return jsonify(list_gv21)
+
+
+@app.route("/api/v1.0/cleandata")
+def cleand_ata():
+    list_cd=[]
+    session = Session(engine)
+    clean_dataset= session.query(clean_data.IncidentID, clean_data.State, clean_data.CityOrCounty,
+                                        clean_data.Address,clean_data.Full_Address ,clean_data.Killed, clean_data.Injured, 
+                                        clean_data.Date, clean_data.Year, clean_data.Latitude, clean_data.Longitude).all()
+    session.close()
+
+    for data in clean_dataset:
+        dic_cd={}
+        dic_cd['IncidentID']=data[0]
+        dic_cd['feature']={}
+
+        dic_cdf={}
+        dic_cdf['State']=data[1]
+        dic_cdf['City']=data[2]
+        dic_cdf['Address']=data[3]
+        dic_cdf['Full Address']=data[4]
+        dic_cdf['Killed']=data[5]
+        dic_cdf['Injured']=data[6]
+        dic_cdf['Date']=data[7]
+        dic_cdf['Year']=data[8]
+        dic_cdf['Latitude']=data[9]
+        dic_cdf['Longitude']=data[10]
+        dic_cd['feature']=dic_cdf
+        list_cd.append(dic_cd)
+        
+
+    return jsonify(list_cd)
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)
