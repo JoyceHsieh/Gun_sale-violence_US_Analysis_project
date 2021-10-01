@@ -24,9 +24,7 @@ Incident ID,State,City Or County,Address,# Killed,# Injured,Date,Year,Latitude,L
 1931288,Pennsylvania,Philadelphia,5597 Old York Rd,0,8,February 17, 2021,39.952583,-75.165222
 1903058,Pennsylvania,Philadelphia,5000 block of N 10th St,0,4,January 15, 2021,39.952583,-75.165222
 2122565,North Carolina,Fayetteville,1100 block of Charlie Dr,2,2,September 22, 2021,36.082157,-94.171852
-2122565,North Carolina,Fayetteville,1100 block of Charlie Dr,2,2,September 22, 2021,35.052666,-78.878357
 1945999,North Carolina,Fayetteville,200 block of Shads Ford Blvd,1,4,March 6, 2021,36.082157,-94.171852
-1945999,North Carolina,Fayetteville,200 block of Shads Ford Blvd,1,4,March 6, 2021,35.052666,-78.878357
 2119701,Florida,Miami,14900 block of Pierce St,0,4,September 19, 2021,25.761681,-80.191788
 2018931,Florida,Miami,2022 NW 1st Ct,1,6,May 28, 2021,25.761681,-80.191788
 1990600,Florida,Miami,2100 block of NW 85th St,0,5,April 28, 2021,25.761681,-80.191788
@@ -98,9 +96,7 @@ Incident ID,State,City Or County,Address,# Killed,# Injured,Date,Year,Latitude,L
 1952662,Illinois,Chicago,2600 block of E 77th St,0,4,March 14, 2021,41.881832,-87.623177
 1952281,Illinois,Chicago,6798 block of S South Chicago Ave,2,13,March 14, 2021,41.881832,-87.623177
 2119583,New York,Rochester,300 block of Driving Park Ave,2,2,September 19, 2021,44.016369,-92.475395
-2119583,New York,Rochester,300 block of Driving Park Ave,2,2,September 19, 2021,43.16103,-77.610924
 1917661,New York,Rochester,400 block of Lyell Avenue,1,3,February 1, 2021,44.016369,-92.475395
-1917661,New York,Rochester,400 block of Lyell Avenue,1,3,February 1, 2021,43.16103,-77.610924
 2118451,Georgia,Augusta,519 Broad St,0,4,September 17, 2021,33.466667,-81.966667
 2003383,Georgia,Augusta,201 E Telfair St,2,2,May 13, 2021,33.466667,-81.966667
 2116343,Maryland,Baltimore,1700 block of N Milton Ave,0,4,September 14, 2021,39.299236,-76.609383
@@ -110,27 +106,18 @@ Incident ID,State,City Or County,Address,# Killed,# Injured,Date,Year,Latitude,L
 1976538,Maryland,Baltimore,2300 block of Hoffman St,0,4,April 13, 2021,39.299236,-76.609383
 1969065,Maryland,Baltimore,300 block of N Eutaw St,0,5,April 5, 2021,39.299236,-76.609383
 2116205,Ohio,Cleveland,2747 Cedar Ave,0,6,September 14, 2021,35.159519,-84.87661
-2116205,Ohio,Cleveland,2747 Cedar Ave,0,6,September 14, 2021,41.505493,-81.68129
 2081480,Ohio,Cleveland,3100 block of W 25th St,0,5,July 31, 2021,35.159519,-84.87661
-2081480,Ohio,Cleveland,3100 block of W 25th St,0,5,July 31, 2021,41.505493,-81.68129
 2054233,Ohio,Cleveland,Kinsman Rd and E 139th St,0,4,July 4, 2021,35.159519,-84.87661
-2054233,Ohio,Cleveland,Kinsman Rd and E 139th St,0,4,July 4, 2021,41.505493,-81.68129
 2032486,Ohio,Cleveland,8805 Buckeye Rd,3,4,June 12, 2021,35.159519,-84.87661
-2032486,Ohio,Cleveland,8805 Buckeye Rd,3,4,June 12, 2021,41.505493,-81.68129
 2027736,Ohio,Cleveland,4100 block of E 81st St,0,6,June 7, 2021,35.159519,-84.87661
-2027736,Ohio,Cleveland,4100 block of E 81st St,0,6,June 7, 2021,41.505493,-81.68129
 2027725,Ohio,Cleveland,3700 block of Woodbridge Ave,0,8,June 6, 2021,35.159519,-84.87661
-2027725,Ohio,Cleveland,3700 block of Woodbridge Ave,0,8,June 6, 2021,41.505493,-81.68129
 1963556,Ohio,Cleveland,5100 Pearl Rd,0,7,March 28, 2021,35.159519,-84.87661
-1963556,Ohio,Cleveland,5100 Pearl Rd,0,7,March 28, 2021,41.505493,-81.68129
 2115522,Wisconsin,Milwaukee,3073 N Sherman Blvd,0,5,September 13, 2021,43.038902,-87.906471
 2103311,Wisconsin,Milwaukee,N 41st St and W Lloyd St,0,4,August 29, 2021,43.038902,-87.906471
 1998602,Wisconsin,Milwaukee,900 block of S 10th St,0,4,May 8, 2021,43.038902,-87.906471
 1970937,Wisconsin,Milwaukee,2627 W Capitol Dr,2,3,April 7, 2021,43.038902,-87.906471
 2115947,Minnesota,Saint Paul,7th St W and N Walnut St,4,0,September 12, 2021,44.953705,-93.089958
-2115947,Minnesota,Saint Paul,7th St W and N Walnut St,4,0,September 12, 2021,44.954445,-93.091301
 1992570,Minnesota,Saint Paul,843 Selby Ave,0,4,May 2, 2021,44.953705,-93.089958
-1992570,Minnesota,Saint Paul,843 Selby Ave,0,4,May 2, 2021,44.954445,-93.091301
 2114626,Texas,Temple,900 block of S 24th St,0,4,September 12, 2021,31.105862,-97.353287
 2114481,Michigan,Detroit,2700 block of Halleck St,2,4,September 12, 2021,42.331429,-83.045753
 2092227,Michigan,Detroit,4421 Central Ave,1,3,August 16, 2021,42.331429,-83.045753
@@ -156,13 +143,9 @@ Incident ID,State,City Or County,Address,# Killed,# Injured,Date,Year,Latitude,L
 2001362,Alabama,Montgomery,3804 S Court St,0,7,May 10, 2021,32.361668,-86.279167
 1982020,Alabama,Montgomery,2300 block of Day St,1,4,April 18, 2021,32.361668,-86.279167
 2110346,Delaware,Wilmington,A St and New Castle Ave,0,4,September 7, 2021,39.739071,-75.539787
-2110346,Delaware,Wilmington,A St and New Castle Ave,0,4,September 7, 2021,34.225727,-77.94471
 2012345,Delaware,Wilmington,800 block of N Pine St,0,4,May 22, 2021,39.739071,-75.539787
-2012345,Delaware,Wilmington,800 block of N Pine St,0,4,May 22, 2021,34.225727,-77.94471
 1992127,Delaware,Wilmington,800 block of N Pine St,0,4,May 1, 2021,39.739071,-75.539787
-1992127,Delaware,Wilmington,800 block of N Pine St,0,4,May 1, 2021,34.225727,-77.94471
 1967914,North Carolina,Wilmington,718 Kidder St,3,4,April 3, 2021,39.739071,-75.539787
-1967914,North Carolina,Wilmington,718 Kidder St,3,4,April 3, 2021,34.225727,-77.94471
 2110077,Kansas,Wichita,351 N Mosley St,1,5,September 7, 2021,37.697948,-97.314835
 1974943,Kansas,Wichita,200 block of N Battin St,1,3,April 11, 2021,37.697948,-97.314835
 2109075,Georgia,Atlanta,868 Joseph E Boone Blvd NW,0,5,September 6, 2021,33.753746,-84.38633
@@ -212,11 +195,8 @@ Incident ID,State,City Or County,Address,# Killed,# Injured,Date,Year,Latitude,L
 2089972,Nevada,Las Vegas,3100 block of E Sunset Rd,1,6,August 13, 2021,36.114647,-115.172813
 1910619,Nevada,Las Vegas,W Wilson Ave and H St,0,5,January 24, 2021,36.114647,-115.172813
 2103132,New York,Albany,Sherman St and Henry Johnson Blvd,0,5,August 28, 2021,44.636513,-123.105927
-2103132,New York,Albany,Sherman St and Henry Johnson Blvd,0,5,August 28, 2021,42.65258,-73.756233
 2011077,New York,Albany,1st St and Quail St,1,5,May 21, 2021,44.636513,-123.105927
-2011077,New York,Albany,1st St and Quail St,1,5,May 21, 2021,42.65258,-73.756233
 1916374,New York,Albany,200 block of Central Ave,1,4,January 30, 2021,44.636513,-123.105927
-1916374,New York,Albany,200 block of Central Ave,1,4,January 30, 2021,42.65258,-73.756233
 2103035,California,San Diego,3100 block of Mission Blvd,0,4,August 28, 2021,32.715736,-117.161087
 1984807,California,San Diego,500 block of J St,1,4,April 22, 2021,32.715736,-117.161087
 1939958,California,San Diego,841 S 45th St,1,3,February 26, 2021,32.715736,-117.161087
@@ -275,53 +255,19 @@ Incident ID,State,City Or County,Address,# Killed,# Injured,Date,Year,Latitude,L
 2080536,Rhode Island,Providence,77 Reservoir Ave,0,5,August 1, 2021,41.825226,-71.418884
 2003334,Rhode Island,Providence,87 Carolina Ave,0,8,May 13, 2021,41.825226,-71.418884
 2079044,Ohio,Columbus,1662 W Mound St,1,5,July 31, 2021,32.492222,-84.940277
-2079044,Ohio,Columbus,1662 W Mound St,1,5,July 31, 2021,39.983334,-82.98333
-2079044,Ohio,Columbus,1662 W Mound St,1,5,July 31, 2021,39.201439,-85.921379
-2079044,Ohio,Columbus,1662 W Mound St,1,5,July 31, 2021,33.495674,-88.427261
 2072782,Ohio,Columbus,N High St and E 4th Ave,0,4,July 24, 2021,32.492222,-84.940277
-2072782,Ohio,Columbus,N High St and E 4th Ave,0,4,July 24, 2021,39.983334,-82.98333
-2072782,Ohio,Columbus,N High St and E 4th Ave,0,4,July 24, 2021,39.201439,-85.921379
-2072782,Ohio,Columbus,N High St and E 4th Ave,0,4,July 24, 2021,33.495674,-88.427261
 2045043,Ohio,Columbus,I-670 and Neil Ave,0,4,June 25, 2021,32.492222,-84.940277
-2045043,Ohio,Columbus,I-670 and Neil Ave,0,4,June 25, 2021,39.983334,-82.98333
-2045043,Ohio,Columbus,I-670 and Neil Ave,0,4,June 25, 2021,39.201439,-85.921379
-2045043,Ohio,Columbus,I-670 and Neil Ave,0,4,June 25, 2021,33.495674,-88.427261
 2035733,Georgia,Columbus,3400 8th Ave,2,2,June 14, 2021,32.492222,-84.940277
-2035733,Georgia,Columbus,3400 8th Ave,2,2,June 14, 2021,39.983334,-82.98333
-2035733,Georgia,Columbus,3400 8th Ave,2,2,June 14, 2021,39.201439,-85.921379
-2035733,Georgia,Columbus,3400 8th Ave,2,2,June 14, 2021,33.495674,-88.427261
 2013043,Ohio,Columbus,233 S Civic Center Dr,1,5,May 22, 2021,32.492222,-84.940277
-2013043,Ohio,Columbus,233 S Civic Center Dr,1,5,May 22, 2021,39.983334,-82.98333
-2013043,Ohio,Columbus,233 S Civic Center Dr,1,5,May 22, 2021,39.201439,-85.921379
-2013043,Ohio,Columbus,233 S Civic Center Dr,1,5,May 22, 2021,33.495674,-88.427261
 2006621,Georgia,Columbus,2727 Manchester Expy,0,4,May 16, 2021,32.492222,-84.940277
-2006621,Georgia,Columbus,2727 Manchester Expy,0,4,May 16, 2021,39.983334,-82.98333
-2006621,Georgia,Columbus,2727 Manchester Expy,0,4,May 16, 2021,39.201439,-85.921379
-2006621,Georgia,Columbus,2727 Manchester Expy,0,4,May 16, 2021,33.495674,-88.427261
 1993090,Ohio,Columbus,491 Park St,0,4,May 2, 2021,32.492222,-84.940277
-1993090,Ohio,Columbus,491 Park St,0,4,May 2, 2021,39.983334,-82.98333
-1993090,Ohio,Columbus,491 Park St,0,4,May 2, 2021,39.201439,-85.921379
-1993090,Ohio,Columbus,491 Park St,0,4,May 2, 2021,33.495674,-88.427261
 1980492,Ohio,Columbus,5001 Chatterton Rd,1,5,April 17, 2021,32.492222,-84.940277
-1980492,Ohio,Columbus,5001 Chatterton Rd,1,5,April 17, 2021,39.983334,-82.98333
-1980492,Ohio,Columbus,5001 Chatterton Rd,1,5,April 17, 2021,39.201439,-85.921379
-1980492,Ohio,Columbus,5001 Chatterton Rd,1,5,April 17, 2021,33.495674,-88.427261
 1943271,Mississippi,Columbus,1200 block of 7th St S,0,4,February 27, 2021,32.492222,-84.940277
-1943271,Mississippi,Columbus,1200 block of 7th St S,0,4,February 27, 2021,39.983334,-82.98333
-1943271,Mississippi,Columbus,1200 block of 7th St S,0,4,February 27, 2021,39.201439,-85.921379
-1943271,Mississippi,Columbus,1200 block of 7th St S,0,4,February 27, 2021,33.495674,-88.427261
 1926742,Georgia,Columbus,2001 South Lumpkin Rd,1,4,February 11, 2021,32.492222,-84.940277
-1926742,Georgia,Columbus,2001 South Lumpkin Rd,1,4,February 11, 2021,39.983334,-82.98333
-1926742,Georgia,Columbus,2001 South Lumpkin Rd,1,4,February 11, 2021,39.201439,-85.921379
-1926742,Georgia,Columbus,2001 South Lumpkin Rd,1,4,February 11, 2021,33.495674,-88.427261
 2079533,Kentucky,Lexington,414 East 5th St,0,5,July 31, 2021,38.047989,-84.50164
 2078540,Iowa,Davenport,Pacific St and West Locust St,0,4,July 29, 2021,41.543056,-90.590836
 2076889,South Carolina,Charleston,Hanover St and Johnson St,1,4,July 28, 2021,38.349819,-81.632622
-2076889,South Carolina,Charleston,Hanover St and Johnson St,1,4,July 28, 2021,32.776566,-79.930923
-2076889,South Carolina,Charleston,Hanover St and Johnson St,1,4,July 28, 2021,32.784618,-79.940918
 2000132,South Carolina,Charleston,500 Block of King St,0,5,May 9, 2021,38.349819,-81.632622
-2000132,South Carolina,Charleston,500 Block of King St,0,5,May 9, 2021,32.776566,-79.930923
-2000132,South Carolina,Charleston,500 Block of King St,0,5,May 9, 2021,32.784618,-79.940918
 2073597,Washington,Seattle,100 block of Occidental Ave S,2,3,July 25, 2021,47.608013,-122.335167
 1975004,Washington,Seattle,306 23rd Ave S,0,4,April 11, 2021,47.608013,-122.335167
 2072962,Texas,Amarillo,1306 NE 3rd Ave,0,6,July 24, 2021,35.199165,-101.845276
@@ -337,45 +283,24 @@ Incident ID,State,City Or County,Address,# Killed,# Injured,Date,Year,Latitude,L
 2066905,Arizona,Tucson,1575 E 36th St,4,3,July 18, 2021,32.25346,-110.911789
 2066812,California,Walnut Creek,SOS Dr and San Luis Rd,1,3,July 18, 2021,37.910076,-122.065186
 2065634,California,Sacramento,L St and Front St,2,4,July 16, 2021,38.590576,-121.489906
-2065634,California,Sacramento,L St and Front St,2,4,July 16, 2021,38.575764,-121.478851
 2064260,New Hampshire,Manchester,I 293 and Brown Ave,0,4,July 16, 2021,43.008663,-71.454391
 2066249,South Carolina,Greenville,840 Mauldin Rd,1,3,July 16, 2021,35.612659,-77.366356
-2066249,South Carolina,Greenville,840 Mauldin Rd,1,3,July 16, 2021,34.852619,-82.394012
 2058837,Ohio,Springfield,405 S Burnett Rd,1,3,July 10, 2021,39.799999,-89.650002
-2058837,Ohio,Springfield,405 S Burnett Rd,1,3,July 10, 2021,42.101391,-72.590279
-2058837,Ohio,Springfield,405 S Burnett Rd,1,3,July 10, 2021,37.210388,-93.297256
-2058837,Ohio,Springfield,405 S Burnett Rd,1,3,July 10, 2021,39.925751,-83.806694
-2058837,Ohio,Springfield,405 S Burnett Rd,1,3,July 10, 2021,44.046204,-123.023346
-2058837,Ohio,Springfield,405 S Burnett Rd,1,3,July 10, 2021,38.788612,-77.174316
 2022391,Ohio,Springfield,1935 S Yellow Springs St,0,6,June 2, 2021,39.799999,-89.650002
-2022391,Ohio,Springfield,1935 S Yellow Springs St,0,6,June 2, 2021,42.101391,-72.590279
-2022391,Ohio,Springfield,1935 S Yellow Springs St,0,6,June 2, 2021,37.210388,-93.297256
-2022391,Ohio,Springfield,1935 S Yellow Springs St,0,6,June 2, 2021,39.925751,-83.806694
-2022391,Ohio,Springfield,1935 S Yellow Springs St,0,6,June 2, 2021,44.046204,-123.023346
-2022391,Ohio,Springfield,1935 S Yellow Springs St,0,6,June 2, 2021,38.788612,-77.174316
 1934181,Illinois,Springfield,1100 block of S Grand Ave W,1,4,February 20, 2021,39.799999,-89.650002
-1934181,Illinois,Springfield,1100 block of S Grand Ave W,1,4,February 20, 2021,42.101391,-72.590279
-1934181,Illinois,Springfield,1100 block of S Grand Ave W,1,4,February 20, 2021,37.210388,-93.297256
-1934181,Illinois,Springfield,1100 block of S Grand Ave W,1,4,February 20, 2021,39.925751,-83.806694
-1934181,Illinois,Springfield,1100 block of S Grand Ave W,1,4,February 20, 2021,44.046204,-123.023346
-1934181,Illinois,Springfield,1100 block of S Grand Ave W,1,4,February 20, 2021,38.788612,-77.174316
 2057427,Connecticut,Hartford,Nelson St and Garden St,0,4,July 8, 2021,41.76371,-72.685097
 2053500,California,Santa Rosa,1500 block of Beachwood Dr,1,3,July 5, 2021,38.44466,-122.720306
 2055252,New York,Buffalo,50 block of Donovan Dr,1,3,July 5, 2021,42.88023,-78.878738
 2043465,New York,Buffalo,114 Hickory St,0,4,June 23, 2021,42.88023,-78.878738
 1924338,Minnesota,Buffalo,755 Crossroads Campus Dr,1,4,February 9, 2021,42.88023,-78.878738
 2054132,Illinois,Peoria,600 block of Haungs Ave,1,3,July 4, 2021,33.580944,-112.237068
-2054132,Illinois,Peoria,600 block of Haungs Ave,1,3,July 4, 2021,40.703545,-89.579086
 2053508,Nevada,North Las Vegas,1200 block of W Helen Ave,2,7,July 4, 2021,36.201946,-115.120216
 2052342,Nebraska,Omaha,2311 N 24th St,1,4,July 4, 2021,41.25716,-95.995102
 2053786,Missouri,Kansas City,E 43rd St and Indiana Ave,0,4,July 4, 2021,39.106667,-94.676392
-2053786,Missouri,Kansas City,E 43rd St and Indiana Ave,0,4,July 4, 2021,39.099724,-94.578331
 1986770,Missouri,Kansas City,E 18th St and Vine St,1,4,April 25, 2021,39.106667,-94.676392
-1986770,Missouri,Kansas City,E 18th St and Vine St,1,4,April 25, 2021,39.099724,-94.578331
 2052353,Texas,Fort Worth,3400 block of Horne St,0,8,July 4, 2021,32.768799,-97.309341
 1973844,Texas,Fort Worth,2000 block of SW Loop 820,1,5,April 9, 2021,32.768799,-97.309341
 2051763,Pennsylvania,Lancaster,50 block of W Orange St,0,4,July 3, 2021,34.686787,-118.15416
-2051763,Pennsylvania,Lancaster,50 block of W Orange St,0,4,July 3, 2021,40.044437,-76.306229
 2050972,Illinois,Champaign,704 N Hickory St,1,4,July 2, 2021,40.116421,-88.243385
 2050353,Virginia,Chesapeake,1200 block of Seaboard Ave,2,2,July 1, 2021,36.779591,-76.288376
 2049907,Louisiana,Marrero,6500 block of Lapalco Blvd,0,4,June 30, 2021,29.899372,-90.100349
@@ -390,25 +315,16 @@ Incident ID,State,City Or County,Address,# Killed,# Injured,Date,Year,Latitude,L
 2047726,North Carolina,Greensboro,801 Province Spring Cir,0,4,June 27, 2021,36.044659,-79.766235
 1951476,North Carolina,Greensboro,100 block of Huffman St,1,3,March 12, 2021,36.044659,-79.766235
 2040643,Virginia,Richmond,200 block of Crane St,1,3,June 20, 2021,37.54129,-77.434769
-2040643,Virginia,Richmond,200 block of Crane St,1,3,June 20, 2021,37.935757,-122.347748
 2041297,California,Richmond,2108 Dunn Ave,3,5,June 20, 2021,37.54129,-77.434769
-2041297,California,Richmond,2108 Dunn Ave,3,5,June 20, 2021,37.935757,-122.347748
 1988688,Virginia,Richmond,4000 Midlothian Turnpike,2,3,April 27, 2021,37.54129,-77.434769
-1988688,Virginia,Richmond,4000 Midlothian Turnpike,2,3,April 27, 2021,37.935757,-122.347748
 1951738,Virginia,Richmond,5100 block of Richmond Henrico Tpke,2,4,March 13, 2021,37.54129,-77.434769
-1951738,Virginia,Richmond,5100 block of Richmond Henrico Tpke,2,4,March 13, 2021,37.935757,-122.347748
 2040265,Colorado,Aurora,12455 E Mississippi Ave,1,4,June 20, 2021,41.763889,-88.290001
-2040265,Colorado,Aurora,12455 E Mississippi Ave,1,4,June 20, 2021,39.710835,-104.8125
 2039457,Alaska,Anchorage,East 3rd Ave and Gambell St,1,4,June 19, 2021,61.217381,-149.863129
 2039346,Louisiana,Baton Rouge,7132 Florida Blvd,2,4,June 19, 2021,30.471165,-91.147385
 1939789,Louisiana,Baton Rouge,4700 block of Paige St,0,4,February 26, 2021,30.471165,-91.147385
 1932479,Louisiana,Baton Rouge,2047 N Foster Dr,1,3,February 18, 2021,30.471165,-91.147385
 2040013,New Jersey,Newark,525 Elizabeth Ave,0,4,June 19, 2021,40.735657,-74.172363
-2040013,New Jersey,Newark,525 Elizabeth Ave,0,4,June 19, 2021,37.529659,-122.040237
-2040013,New Jersey,Newark,525 Elizabeth Ave,0,4,June 19, 2021,39.683723,-75.749657
 1999423,New Jersey,Newark,378 Chancellor Ave,0,4,May 9, 2021,40.735657,-74.172363
-1999423,New Jersey,Newark,378 Chancellor Ave,0,4,May 9, 2021,37.529659,-122.040237
-1999423,New Jersey,Newark,378 Chancellor Ave,0,4,May 9, 2021,39.683723,-75.749657
 2037813,Virginia,Petersburg,Virginia Ave and Melville St,0,4,June 17, 2021,37.227928,-77.401924
 2034408,Michigan,Lansing,300 block of N Cedar St,2,2,June 14, 2021,42.732536,-84.555534
 2033605,Kentucky,Louisville,5200 block of Robinwood Rd,1,3,June 13, 2021,38.328732,-85.764771
@@ -442,7 +358,6 @@ Incident ID,State,City Or County,Address,# Killed,# Injured,Date,Year,Latitude,L
 1971410,South Carolina,Rock Hill,4456 Marshall Rd,7,0,April 7, 2021,34.924866,-81.025078
 1973435,Ohio,Dayton,Hoover Ave and Summit Square,0,4,April 7, 2021,39.758949,-84.191605
 1969633,Texas,Beaumont,6035 S M L King Jr Pkwy,0,4,April 4, 2021,30.080173,-94.126556
-1969633,Texas,Beaumont,6035 S M L King Jr Pkwy,0,4,April 4, 2021,30.081987,-94.118637
 1967893,Alabama,Tuscaloosa,2314 4th St,0,5,April 3, 2021,33.189281,-87.565155
 1969221,Texas,Allen,1517 Pine Bluff Dr,6,0,April 3, 2021,33.103172,-96.670547
 1968553,Florida,Quincy,2114 Pat Thomas Parkway,0,7,April 3, 2021,42.255459,-71.002579
@@ -455,11 +370,9 @@ Incident ID,State,City Or County,Address,# Killed,# Injured,Date,Year,Latitude,L
 1948233,Florida,Clearwater,US-19 ALT and Drew St,1,3,March 8, 2021,27.972572,-82.796745
 1947241,California,Yuba City,Countryside Dr and Littlejohn Dr,2,3,March 6, 2021,39.136986,-121.607841
 1943986,Pennsylvania,Erie,2105 Buffalo Rd,2,3,March 3, 2021,42.129223,-80.08506
-1943986,Pennsylvania,Erie,2105 Buffalo Rd,2,3,March 3, 2021,42.129223,-80.08506
 1934077,Louisiana,Metairie,6719 Airline Dr,3,2,February 20, 2021,29.984093,-90.152855
 1933975,Colorado,Grand Junction,1000 block of Teller Ave,1,3,February 20, 2021,39.071445,-108.549728
 1928557,California,San Francisco,3rd St and Quesada Ave,0,6,February 13, 2021,37.773972,-122.431297
-1928557,California,San Francisco,3rd St and Quesada Ave,0,6,February 13, 2021,37.733795,-122.446747
 1928205,North Carolina,Cary,101 Reed St,1,3,February 13, 2021,35.791538,-78.78112
 1921939,Tennessee,Murfreesboro,Ewing Blvd and West St,1,4,February 6, 2021,35.846111,-86.391945
 1922354,Washington,Tacoma,3634 E McKinley Ave,1,3,February 6, 2021,47.258728,-122.465973

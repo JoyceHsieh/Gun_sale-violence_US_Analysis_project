@@ -16,13 +16,9 @@ Incident ID,State,City Or County,Address,# Killed,# Injured,Date,Year,Latitude,L
 1338860,California,Oakland,316 14th St,0,4,March 3, 2019,37.804363,-122.271111
 1337498,California,Oakland,9755 Edes Ave,1,3,February 28, 2019,37.804363,-122.271111
 1579856,Virginia,Richmond,1800 E Main St,1,3,December 25, 2019,37.54129,-77.434769
-1579856,Virginia,Richmond,1800 E Main St,1,3,December 25, 2019,37.935757,-122.347748
 1554446,California,Richmond,20th St and Roosevelt Ave,0,4,November 20, 2019,37.54129,-77.434769
-1554446,California,Richmond,20th St and Roosevelt Ave,0,4,November 20, 2019,37.935757,-122.347748
 1475361,Virginia,Richmond,6346 Midlothian Turnpike,0,4,August 10, 2019,37.54129,-77.434769
-1475361,Virginia,Richmond,6346 Midlothian Turnpike,0,4,August 10, 2019,37.935757,-122.347748
 1428229,California,Richmond,700 block of 14th St,0,5,June 21, 2019,37.54129,-77.434769
-1428229,California,Richmond,700 block of 14th St,0,5,June 21, 2019,37.935757,-122.347748
 1579266,Louisiana,New Orleans,6400 block of General Meyer Ave,0,4,December 24, 2019,29.951065,-90.071533
 1567231,Louisiana,New Orleans,3801 Washington Ave,1,4,December 8, 2019,29.951065,-90.071533
 1561966,Louisiana,New Orleans,2000 block of N Dorgenois St,2,2,December 1, 2019,29.951065,-90.071533
@@ -90,36 +86,18 @@ Incident ID,State,City Or County,Address,# Killed,# Injured,Date,Year,Latitude,L
 1321093,Texas,San Antonio,538 Hot Wells Blvd,2,2,February 5, 2019,29.424349,-98.491142
 1573754,Montana,Great Falls,1701 10th Ave S,4,1,December 17, 2019,47.506187,-111.283691
 1572275,Georgia,Columbus,600 block of 32nd St,1,4,December 15, 2019,32.492222,-84.940277
-1572275,Georgia,Columbus,600 block of 32nd St,1,4,December 15, 2019,39.983334,-82.98333
-1572275,Georgia,Columbus,600 block of 32nd St,1,4,December 15, 2019,39.201439,-85.921379
-1572275,Georgia,Columbus,600 block of 32nd St,1,4,December 15, 2019,33.495674,-88.427261
 1527528,Ohio,Columbus,1600 block of Manchester Ave,0,4,October 15, 2019,32.492222,-84.940277
-1527528,Ohio,Columbus,1600 block of Manchester Ave,0,4,October 15, 2019,39.983334,-82.98333
-1527528,Ohio,Columbus,1600 block of Manchester Ave,0,4,October 15, 2019,39.201439,-85.921379
-1527528,Ohio,Columbus,1600 block of Manchester Ave,0,4,October 15, 2019,33.495674,-88.427261
 1462317,Ohio,Columbus,1280 E Long St,0,5,July 30, 2019,32.492222,-84.940277
-1462317,Ohio,Columbus,1280 E Long St,0,5,July 30, 2019,39.983334,-82.98333
-1462317,Ohio,Columbus,1280 E Long St,0,5,July 30, 2019,39.201439,-85.921379
-1462317,Ohio,Columbus,1280 E Long St,0,5,July 30, 2019,33.495674,-88.427261
 1429480,Ohio,Columbus,1767 Genessee Ave,0,5,June 23, 2019,32.492222,-84.940277
-1429480,Ohio,Columbus,1767 Genessee Ave,0,5,June 23, 2019,39.983334,-82.98333
-1429480,Ohio,Columbus,1767 Genessee Ave,0,5,June 23, 2019,39.201439,-85.921379
-1429480,Ohio,Columbus,1767 Genessee Ave,0,5,June 23, 2019,33.495674,-88.427261
 1400561,Ohio,Columbus,2424 Sullivant Ave,0,4,May 20, 2019,32.492222,-84.940277
-1400561,Ohio,Columbus,2424 Sullivant Ave,0,4,May 20, 2019,39.983334,-82.98333
-1400561,Ohio,Columbus,2424 Sullivant Ave,0,4,May 20, 2019,39.201439,-85.921379
-1400561,Ohio,Columbus,2424 Sullivant Ave,0,4,May 20, 2019,33.495674,-88.427261
 1568230,New Jersey,Jersey City,223 Martin Luther King Dr,6,3,December 10, 2019,40.719074,-74.050552
 1434893,New Jersey,Jersey City,167 Armstrong Ave,0,4,June 28, 2019,40.719074,-74.050552
 1565216,Florida,Pensacola,280 Taylor Rd,4,8,December 6, 2019,30.433283,-87.240372
 1564524,Alabama,Montgomery,500 Eastdale Rd S,2,2,December 4, 2019,32.361668,-86.279167
 1480326,Alabama,Montgomery,847 N University Dr,2,3,August 15, 2019,32.361668,-86.279167
 1561813,Illinois,Aurora,700 block of S 5th St,1,4,December 1, 2019,41.763889,-88.290001
-1561813,Illinois,Aurora,700 block of S 5th St,1,4,December 1, 2019,39.710835,-104.8125
 1419305,Colorado,Aurora,12500 block of E Kansas Pl,0,4,June 11, 2019,41.763889,-88.290001
-1419305,Colorado,Aurora,12500 block of E Kansas Pl,0,4,June 11, 2019,39.710835,-104.8125
 1327321,Illinois,Aurora,641 Archer Ave,6,6,February 15, 2019,41.763889,-88.290001
-1327321,Illinois,Aurora,641 Archer Ave,6,6,February 15, 2019,39.710835,-104.8125
 1562685,Michigan,Kalamazoo,6300 block of Proctor St,1,3,December 1, 2019,42.299152,-85.591736
 1560645,Texas,Amarillo,2650 Dumas Dr,0,7,November 29, 2019,35.199165,-101.845276
 1558067,Florida,Brownsville,NW 29th Ave and 44th St,2,2,November 25, 2019,25.901747,-97.497482
@@ -139,41 +117,23 @@ Incident ID,State,City Or County,Address,# Killed,# Injured,Date,Year,Latitude,L
 1398593,California,Long Beach,1616 West Pacific Coast Highway,1,4,May 18, 2019,33.77005,-118.193741
 1554807,Washington,Everett,120 West Casino Rd,0,4,November 21, 2019,47.982567,-122.193375
 1552068,New Jersey,Newark,139 S 8th St,1,4,November 18, 2019,40.735657,-74.172363
-1552068,New Jersey,Newark,139 S 8th St,1,4,November 18, 2019,37.529659,-122.040237
-1552068,New Jersey,Newark,139 S 8th St,1,4,November 18, 2019,39.683723,-75.749657
 1425193,New Jersey,Newark,700 block of Dr Martin Luther King Jr Blvd,1,4,June 18, 2019,40.735657,-74.172363
-1425193,New Jersey,Newark,700 block of Dr Martin Luther King Jr Blvd,1,4,June 18, 2019,37.529659,-122.040237
-1425193,New Jersey,Newark,700 block of Dr Martin Luther King Jr Blvd,1,4,June 18, 2019,39.683723,-75.749657
 1313291,New Jersey,Newark,612 Bergen St,1,3,January 26, 2019,40.735657,-74.172363
-1313291,New Jersey,Newark,612 Bergen St,1,3,January 26, 2019,37.529659,-122.040237
-1313291,New Jersey,Newark,612 Bergen St,1,3,January 26, 2019,39.683723,-75.749657
 1551531,California,Fresno,5361 E Lamona Ave,4,6,November 17, 2019,36.746841,-119.772591
-1551531,California,Fresno,5361 E Lamona Ave,4,6,November 17, 2019,29.540457,-95.448189
 1439765,California,Fresno,4700 block of E Hamilton Ave,1,3,July 4, 2019,36.746841,-119.772591
-1439765,California,Fresno,4700 block of E Hamilton Ave,1,3,July 4, 2019,29.540457,-95.448189
 1551162,Ohio,Cleveland,7100 block of Lawn Ave,0,4,November 17, 2019,35.159519,-84.87661
-1551162,Ohio,Cleveland,7100 block of Lawn Ave,0,4,November 17, 2019,41.505493,-81.68129
 1512486,Ohio,Cleveland,3616 East 144th St,4,0,September 21, 2019,35.159519,-84.87661
-1512486,Ohio,Cleveland,3616 East 144th St,4,0,September 21, 2019,41.505493,-81.68129
 1418533,Ohio,Cleveland,17218 Tarkington Ave,1,3,June 9, 2019,35.159519,-84.87661
-1418533,Ohio,Cleveland,17218 Tarkington Ave,1,3,June 9, 2019,41.505493,-81.68129
 1408289,Texas,Cleveland,26311 TX-321,3,2,May 29, 2019,35.159519,-84.87661
-1408289,Texas,Cleveland,26311 TX-321,3,2,May 29, 2019,41.505493,-81.68129
 1397521,Ohio,Cleveland,9500 Cardwell Ave,0,4,May 16, 2019,35.159519,-84.87661
-1397521,Ohio,Cleveland,9500 Cardwell Ave,0,4,May 16, 2019,41.505493,-81.68129
 1550546,California,San Diego,2152 Flintridge Dr,6,0,November 16, 2019,32.715736,-117.161087
 1318187,California,San Diego,6800 block of Springfield St,0,4,February 1, 2019,32.715736,-117.161087
 1548689,California,Santa Clarita,21900 Centurion Way,3,3,November 14, 2019,34.391663,-118.542587
 1546102,Missouri,Kansas City,4704 Independence Ave,0,4,November 10, 2019,39.106667,-94.676392
-1546102,Missouri,Kansas City,4704 Independence Ave,0,4,November 10, 2019,39.099724,-94.578331
 1520330,Kansas,Kansas City,1013 Central Ave,4,5,October 6, 2019,39.106667,-94.676392
-1520330,Kansas,Kansas City,1013 Central Ave,4,5,October 6, 2019,39.099724,-94.578331
 1509721,Missouri,Kansas City,2111 Television Plaza,0,5,September 22, 2019,39.106667,-94.676392
-1509721,Missouri,Kansas City,2111 Television Plaza,0,5,September 22, 2019,39.099724,-94.578331
 1482199,Missouri,Kansas City,770 W 47th St,0,4,August 18, 2019,39.106667,-94.676392
-1482199,Missouri,Kansas City,770 W 47th St,0,4,August 18, 2019,39.099724,-94.578331
 1367011,Missouri,Kansas City,5339 Michigan Ave,1,3,April 9, 2019,39.106667,-94.676392
-1367011,Missouri,Kansas City,5339 Michigan Ave,1,3,April 9, 2019,39.099724,-94.578331
 1546038,Tennessee,Memphis,2080 E. Brooks Rd,1,4,November 10, 2019,35.1175,-89.971107
 1468799,Tennessee,Memphis,443 E Shelby Dr,1,3,August 4, 2019,35.1175,-89.971107
 1424957,Tennessee,Memphis,2872 Coach Dr,0,5,June 17, 2019,35.1175,-89.971107
@@ -207,7 +167,6 @@ Incident ID,State,City Or County,Address,# Killed,# Injured,Date,Year,Latitude,L
 1377519,Pennsylvania,Philadelphia,1500 block of South 31st St,0,4,April 21, 2019,39.952583,-75.165222
 1535629,Michigan,Lansing,Balfour Dr and W Miller Rd,1,4,October 27, 2019,42.732536,-84.555534
 1535478,Texas,Greenville,2275 US-380,2,6,October 26, 2019,35.612659,-77.366356
-1535478,Texas,Greenville,2275 US-380,2,6,October 26, 2019,34.852619,-82.394012
 1534704,Oklahoma,Oklahoma City,1900 block of NW 12th St,2,2,October 24, 2019,35.481918,-97.508469
 1405221,Oklahoma,Oklahoma City,N Kelley Ave and NE 26th St,0,5,May 25, 2019,35.481918,-97.508469
 1530965,Texas,Port Arthur,1100 block of Vicksburg Ave,1,3,October 20, 2019,29.884951,-93.939949
@@ -228,21 +187,16 @@ Incident ID,State,City Or County,Address,# Killed,# Injured,Date,Year,Latitude,L
 1305538,Florida,Jacksonville,11445 Brian Lakes Drive,3,2,January 19, 2019,30.332184,-81.655647
 1302060,Florida,Jacksonville,Emerson St and Spring Park Rd,1,5,January 16, 2019,30.332184,-81.655647
 1515327,Texas,Beaumont,4100 block of Highland Ave,4,0,September 29, 2019,30.080173,-94.126556
-1515327,Texas,Beaumont,4100 block of Highland Ave,4,0,September 29, 2019,30.081987,-94.118637
 1510411,Indiana,Gary,1600 block of Connecticut St,2,2,September 23, 2019,41.595161,-87.356934
 1508804,South Carolina,Lancaster,1399 Old Charlotte Rd,2,8,September 21, 2019,34.686787,-118.15416
-1508804,South Carolina,Lancaster,1399 Old Charlotte Rd,2,8,September 21, 2019,40.044437,-76.306229
 1509510,Indiana,Indianapolis,101 W Maryland St,0,6,September 21, 2019,39.791,-86.148003
 1390764,Indiana,Indianapolis,Roache St and Rader St,0,4,May 8, 2019,39.791,-86.148003
 1386929,Indiana,Indianapolis,101 W Maryland St,0,4,May 4, 2019,39.791,-86.148003
 1365077,Indiana,Indianapolis,3600 block of Roosevelt Ave,2,2,April 7, 2019,39.791,-86.148003
 1312463,Indiana,Indianapolis,2957 N Sherman Dr,0,5,January 26, 2019,39.791,-86.148003
 1507092,California,Wilmington,800 block of Bayview Ave,2,2,September 18, 2019,39.739071,-75.539787
-1507092,California,Wilmington,800 block of Bayview Ave,2,2,September 18, 2019,34.225727,-77.94471
 1386575,Delaware,Wilmington,W 27th St and Tatnall St,0,4,May 4, 2019,39.739071,-75.539787
-1386575,Delaware,Wilmington,W 27th St and Tatnall St,0,4,May 4, 2019,34.225727,-77.94471
 1365173,Delaware,Wilmington,940 N Pine St,0,6,April 7, 2019,39.739071,-75.539787
-1365173,Delaware,Wilmington,940 N Pine St,0,6,April 7, 2019,34.225727,-77.94471
 1505354,Wyoming,Cheyenne,3436 E 11th St,2,2,September 16, 2019,41.161079,-104.80545
 1503207,New Mexico,Albuquerque,1919 Ladera Dr NW,1,4,September 12, 2019,35.106766,-106.629181
 1503192,New Mexico,Albuquerque,1028 Lura Pl SW,4,2,September 12, 2019,35.106766,-106.629181
@@ -273,9 +227,7 @@ Incident ID,State,City Or County,Address,# Killed,# Injured,Date,Year,Latitude,L
 1479395,Washington,Tacoma,E 38th St and E Roosevelt Ave,2,3,August 13, 2019,47.258728,-122.465973
 1478480,Mississippi,Greenwood,200 Young St,0,4,August 12, 2019,39.614944,-86.105606
 1476271,California,San Francisco,1100 Fillmore St,0,4,August 10, 2019,37.773972,-122.431297
-1476271,California,San Francisco,1100 Fillmore St,0,4,August 10, 2019,37.733795,-122.446747
 1353714,California,San Francisco,1300 Fillmore St,1,5,March 24, 2019,37.773972,-122.431297
-1353714,California,San Francisco,1300 Fillmore St,1,5,March 24, 2019,37.733795,-122.446747
 1527721,Louisiana,Lake Charles,110 Pryce St,0,4,August 4, 2019,30.212942,-93.21891
 1467828,Ohio,Dayton,419 E 5th St,10,17,August 4, 2019,39.758949,-84.191605
 1467157,Virginia,Suffolk,200 block of N Broad St,2,3,August 2, 2019,36.73283,-76.579002
@@ -295,12 +247,10 @@ Incident ID,State,City Or County,Address,# Killed,# Injured,Date,Year,Latitude,L
 1344488,New Jersey,Paterson,291 12th Ave,0,4,March 11, 2019,40.914745,-74.162827
 1434602,Connecticut,Hamden,937 Choate Ave,0,5,June 28, 2019,41.385826,-72.904243
 1435217,Minnesota,Saint Paul,909 Desoto St,0,5,June 28, 2019,44.953705,-93.089958
-1435217,Minnesota,Saint Paul,909 Desoto St,0,5,June 28, 2019,44.954445,-93.091301
 1429047,Indiana,South Bend,1150 E Mishawaka Ave,1,10,June 23, 2019,41.676388,-86.250275
 1429399,Virginia,Hampton,1st St and E Pembroke Ave,0,4,June 22, 2019,37.034946,-76.360123
 1428047,California,Santa Maria,519  West Taylor St,5,0,June 21, 2019,34.963623,-120.424576
 1426537,Pennsylvania,Allentown,343 Hamilton St,0,10,June 20, 2019,40.610306,-75.477104
-1426537,Pennsylvania,Allentown,343 Hamilton St,0,10,June 20, 2019,40.613953,-75.477791
 1423330,Kentucky,Louisville,Dixie Highway and Ormsby Ave,1,6,June 16, 2019,38.328732,-85.764771
 1375235,Kentucky,Louisville,4000 block of Bells Ln,0,4,April 18, 2019,38.328732,-85.764771
 1423435,Iowa,Des Moines,1200 block of Sampson St,0,6,June 16, 2019,41.619549,-93.598022
@@ -327,10 +277,8 @@ Incident ID,State,City Or County,Address,# Killed,# Injured,Date,Year,Latitude,L
 1398584,Iowa,Cedar Rapids,70 Kirkwood Ct SW,2,2,May 18, 2019,41.977879,-91.665627
 1400934,Nebraska,Omaha,2825 Y St,0,4,May 18, 2019,41.25716,-95.995102
 1398876,California,Sacramento,7326 Stockton Blvd,1,3,May 17, 2019,38.590576,-121.489906
-1398876,California,Sacramento,7326 Stockton Blvd,1,3,May 17, 2019,38.575764,-121.478851
 1381857,Tennessee,Nashville,1407 Dr DB Todd Jr Blvd,0,7,April 28, 2019,36.174465,-86.76796
 1381771,Mississippi,Jackson,700 block of Monterey St,1,3,April 27, 2019,32.298756,-90.184807
-1381771,Mississippi,Jackson,700 block of Monterey St,1,3,April 27, 2019,42.245777,-84.405968
 1381273,California,Poway,16934 Chabad Way,1,3,April 27, 2019,32.96273,-117.03624
 1373557,Maryland,Germantown,18700 block of Curry Powder Ln,1,3,April 16, 2019,39.173161,-77.271652
 1370795,Florida,Miami,NW 19th Ave and 60th St,2,2,April 14, 2019,25.761681,-80.191788
@@ -350,12 +298,10 @@ Incident ID,State,City Or County,Address,# Killed,# Injured,Date,Year,Latitude,L
 1348793,Nevada,Las Vegas,600 E Fremont St,0,4,March 17, 2019,36.114647,-115.172813
 1338790,Arkansas,Pine Bluff,723 East 25th Ave,1,4,March 2, 2019,34.2244,-92.019211
 1329144,Texas,Henderson,504 S Van Buren St,2,2,February 17, 2019,36.039524,-114.98172
-1329144,Texas,Henderson,504 S Van Buren St,2,2,February 17, 2019,37.840427,-87.578888
 1328562,Mississippi,Clinton,1214 Foxhill Dr,5,0,February 16, 2019,38.768005,-76.897087
 1323448,Virginia,Petersburg,109 Perry St,0,4,February 9, 2019,37.227928,-77.401924
 1320286,California,Palm Springs,E Sunny Dunes Rd and El Placer Rd,4,0,February 3, 2019,33.830517,-116.545601
 1312391,Georgia,Albany,300 block of W Roosevelt,0,4,January 26, 2019,44.636513,-123.105927
-1312391,Georgia,Albany,300 block of W Roosevelt,0,4,January 26, 2019,42.65258,-73.756233
 1305563,Pennsylvania,Lebanon,1140 Church St,0,4,January 19, 2019,40.052059,-86.470642
 1303303,California,Palmdale,Ranch Center Dr and 40th St W,3,1,January 16, 2019,34.579449,-118.109291
 1295294,New Mexico,Roswell,1300 block of W College Blvd,0,4,January 6, 2019,34.022003,-84.361549
