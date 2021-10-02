@@ -50,7 +50,7 @@ def gunsalebystate():
     list_gunsale=[]
     session = Session(engine)
     Gun_sale_data= session.query(gun_sale.State, gun_sale.Year_2017,gun_sale.Year_2018,gun_sale.Year_2019,
-                                gun_sale.Year_2020,gun_sale.Year_2021, gun_sale.USPS, gun_sale.Lat, gun_sale.Lon).all()
+                                gun_sale.Year_2020,gun_sale.Year_2021).all()
     session.close()
 
  
@@ -66,16 +66,13 @@ def gunsalebystate():
         dic_state['2019'] = data[3]
         dic_state['2020'] = data[4]
         dic_state['2021'] = data[5]
-        dic_state['USPS'] = data[6]
-        dic_state['Lat'] = data[7]
-        dic_state['Lon'] = data[8]
+
         
         dict_sale['feature'] = dic_state
         list_gunsale.append(dict_sale)
 
         
     return jsonify(list_gunsale)
-
 
 
 @app.route("/api/v1.0/gunviolence2019")
