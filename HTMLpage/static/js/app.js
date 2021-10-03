@@ -12,11 +12,11 @@ d3.json(url).then(function createPlotly(data) {
     })
     console.log(state);
 
-    var statevalue=[]
-    data.forEach(function(v){
-    statevalue.push(v.State,v.feature['2017'],v.feature['2018'],v.feature['2019'],v.feature['2020'],v.feature['2021'])
-    })
-    console.log(statevalue);
+    // var statevalue=[]
+    // data.forEach(function(v){
+    // statevalue.push(v.State,v.feature['2017'],v.feature['2018'],v.feature['2019'],v.feature['2020'],v.feature['2021'])
+    // })
+    // console.log(statevalue);
 
    
     d3.select("#selDataset_state").selectAll("option").data(state).enter().append("option")
@@ -24,45 +24,69 @@ d3.json(url).then(function createPlotly(data) {
     return `<option>${d}</option>`;
     });
 
+    var dropdownMenu = d3.select("#selDataset_state");
+    var dropdownValue = dropdownMenu.property("value");
+    var index = state.indexOf(dropdownValue);
+
+
+    // Create a bar graph using index
+    var Data2017 = data[index].feature['2017']
+    var Data2018 = data[index].feature['2018']
+    var Data2019 = data[index].feature['2019']
+    var Data2020 = data[index].feature['2020']
+    var Data2021 = data[index].feature['2021']
+    var defaultData = [Data2017,Data2018,Data2019,Data2020,Data2021]
+    console.log(defaultData)
+    
+
+    var label=['2017','2018','2019','2020','2021']
+
+    var bardata = [
+      // {
+      //   x: defaultData,
+      //   y: label,
+      //   type: "bar",
+      //   orientation: "h",
+      // }
+
+      {
+        x: label,
+        y: defaultData,
+        type: "bar",
+
+      }
+    ];
+  
+    var barLayout = {
+      title: `Gun Sale in ${dropdownValue}`,
+      xaxis: { title: "Year" }
+    };
+  
+    Plotly.newPlot("bar", bardata, barLayout);
+
+
+    
+    // When different test ID is selected, call an function optionChanged
+   d3.select("#selDataset_state").on("change", optionChanged);
+  
+   function optionChanged() {
+     console.log("Different item was selected.");
+     var dropdownMenu = d3.select("#selDataset_state");
+     var dropdownValue = dropdownMenu.property("value");
+     console.log(`Currently state ${dropdownValue} is shown on the page`);
+ 
+     // Update graph
+     createPlotly(data);
+   }
+
+
 })
 
 
 
-    // var dropdownMenu = d3.select("#selDataset_state");
-    // var dropdownValue = dropdownMenu.property("value");
-    // var index = data.indexOf(dropdownValue);
-
-    // var label=['2017','2018','2019','2020','2021']
-
-    // var bardata = [
-    //   {
-    //     x: label,
-    //     y: statevalue,
-    //     type: "bar",
-    //     orientation: "h",
-    //   }
-    // ];
-  
-    // var barLayout = {
-    //   title: "Gun Sale in ",
-    //   xaxis: { title: "Year" }
-    // };
-  
-    // Plotly.newPlot("bar", bardata, barLayout);
     
 
-    // When different test ID is selected, call an function optionChanged
-  //   d3.select("#selDataset_state").on("change", optionChanged);
-  
-  //  function optionChanged() {
-  //    console.log("Different item was selected.");
-  //    var dropdownMenu = d3.select("#selDataset_state");
-  //    var dropdownValue = dropdownMenu.property("value");
-  //    console.log(`Currently test id ${dropdownValue} is shown on the page`);
- 
-  //    // Update graph
-  //    createPlotly(data);
-  //  }
+    
 
     
 
