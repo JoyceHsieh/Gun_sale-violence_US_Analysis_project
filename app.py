@@ -24,6 +24,7 @@ gun_violence_2019 = Base.classes.Gun_violence_2019
 gun_violence_2020 = Base.classes.Gun_violence_2020
 gun_violence_2021 = Base.classes.Gun_violence_2021
 completed_data=Base.classes.completed_final_data
+state_coords=Base.classes.state_coords
 
 
 #Set up Flask
@@ -41,6 +42,7 @@ def welcome():
             <br> <a href=/api/v1.0/gunviolence2020>gun violence mass shooting on 2020</a>
             <br> <a href=/api/v1.0/gunviolence2021>gun violence mass shooting on 2021</a>
             <br> <a href=/api/v1.0/completedata> Completed data includ accurate Lat & Lon from 2019 to 2021 </a>
+            <br> <a href=/api/v1.0/statecoords> State Coords </a>
             """
     return html
 
@@ -202,6 +204,27 @@ def complete_data():
 
     return jsonify(list_cfd)
 
+
+@app.route("/api/v1.0/statecoords")
+def statecoord_data():
+    list_sc=[]
+    session = Session(engine)
+    state_coords_dataset= session.query(state_coords.State, state_coords.Latitude, state_coords.Longitude).all()
+    session.close()
+
+    for data in state_coords_dataset:
+        dic_sc={}
+        dic_sc['State']=data[0]
+        dic_sc['feature']={}
+
+        dic_scf={}
+        dic_scf['Latitude']=data[1]
+        dic_scf['Longitude']=data[2]
+        dic_sc['feature']=dic_scf
+        list_sc.append(dic_sc)
+        
+
+    return jsonify(list_sc)
 
 if __name__ == '__main__':
     app.run(debug=True)
