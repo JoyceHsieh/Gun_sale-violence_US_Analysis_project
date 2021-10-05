@@ -109,7 +109,7 @@ d3.json(url).then(function createPlotly(data) {
           var monthday = b.feature.Date;
           var year = b.feature.Year;
           var bdate = new Date(monthday +', '+year)
-          return a.feature.Year-b.feature.Year
+          return a.feature.injured-b.feature.injured
         })
 
         injuredsort.slice(0,20)
