@@ -109,8 +109,9 @@ d3.json(url).then(function createPlotly(data) {
           var monthday = b.feature.Date;
           var year = b.feature.Year;
           var bdate = new Date(monthday +', '+year)
-          return a.feature.injured-b.feature.injured
+          return adate-bdate
         })
+        console.log(injuredsort)
 
         injuredsort.slice(0,20)
         killed = injuredsort.slice(0,20).map(d=>d.feature.Killed)
