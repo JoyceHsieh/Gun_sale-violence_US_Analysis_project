@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Firearm Report</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+
+        <!-- Leaflet JavaScript code -->
+        <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+        integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+        crossorigin=""></script>
+        
+        <!-- D3 library -->
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/frappe-charts@1.2.4/dist/frappe-charts.min.iife.js"></script>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+        <!-- Leaflet CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+        integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+        crossorigin=""/>
+
+        <!-- Leaflet heatmap plugin-->
+        <script type="text/javascript" src="js/leaflet-heat.js"></script>
+        <!-- Marker cluster JavaScript code -->
+        <script type="text/javascript" src="https://unpkg.com/leaflet.markercluster@1.0.3/dist/leaflet.markercluster.js"></script>
+
+        <!-- Marker cluster CSS -->
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.css">
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.Default.css">
+      
+ 
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">Gun violence</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#dashboard">Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#analysis">Analysis</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#mapdashoboard">Map</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white font-weight-bold">Gun violence report in United States</h1>
+                        <hr class="divider" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 mb-5">Gun violence has consistently been a hot button issue in the United States, with the issue making further headlines during the Covid-19 pandemic.</p>
+                        <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="page-section bg-secondary" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">Website Presents</h2>
+                        <hr class="divider divider-light" />
+                        <p class="text-white-75 mb-4 text-start">This website presents mass shooting data exported <a href="https://www.gunviolencearchive.org/"> (GVA) </a>from 1/1/2019 to 9/30/2021 to show how mass shootings incidents in the United States changed from the pre pandemic year of 2019 through September 2021. 
+                            GVA defines mass shooting incidents based only on the numeric value of 4 or more shot or killed, not including the shooter. In addition to the mass shooting incident dataset described, we have also provided gun sales information for the same years. 
+                            Although presented together, at this time we do not draw conclusions about the relationship between the two datasets.
+                            <br>
+                            <br>
+                            GVA is a nonprofit whose mission is to provide free online public access to accurate information about gun-related violence in the United States. Our group is in no way affiliated with GVA.
+                            The full dataset that we used can be accessed via API or the Github link on the “API” page of this website.
+                          </p>
+                        <a class="btn btn-light btn-xl" href="#dashboard">Get Started!</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+        <!-- Services-->
+        <section class="page-section" id="dashboard">
+            <div class="container">
+
+                <div class="row">
+                  <div class="col-md-12 jumbotron text-center">
+                    <h1>Gun violence report Dashboard</h1>
+                    <p>Use the interactive charts below to explore the dataset</p>
+                  </div>
+                </div>
+            
+                <br>
+            
+                <div class="row">
+            
+                  <div class="col-md-4">
+                    <div class="well">
+                      <h5>Start Date:</h5>
+                      <input id="selDataset_startyear" value="2019-01-01" onchange="optionChanged(this.value)" class="form-control" aria-label="Default select example"
+                      type="date" min="2019-01-01" max="2021-09-30">
+                    </div>
+                    </div>
+            
+            
+                    <div class="col-md-4">
+                    <div class="well">
+                      <h5>State:</h5>
+                      <select id="selDataset_state" onchange="optionChanged(this.value)" class="form-select" aria-label="Default select example"></select>
+                    </div>
+                    </div>
+            
+                    <div class="col-md-4">
+                    <div class="well">
+                      <h5>End Date:</h5>
+                      <input id="selDataset_endyear" value="2021-09-30" onchange="optionChanged(this.value)" class="form-control" aria-label="Default select example"
+                      type="date" min="2019-01-01" max="2021-09-30">
+                    </div>
+                    </div>
+            
+                </div>
+            
+                <br>
+                <div class="row">
+            
+                  <div class="col-md-6">
+                    <div id="DashBoard_map"></div>
+                  </div>
+            
+            
+                  <div class="col-md-6">
+                    <div id="bar"></div>
+                  </div>
+            
+            
+                </div>
+            
+                  <br>
+            
+                <div class="row">
+                  <div class="col-md-12">
+                    <div id="LineBarchart"></div>
+                  </div>
+                </div>
+                
+            </div>
+            
+              <script src="https://d3js.org/d3.v5.min.js"></script>
+              <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+              <script src="js/app.js"></script>
+              <script src="js/state_cord_data.js"></script>
+              <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+              <!-- <script src="static/bonus.js"></script> -->
+               <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+              
+            
+              
+            
+           
+        </section>
+
+        <!-- Analysis-->
+        <section class="page-section bg-secondary" id="analysis">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 jumbotron text-center text-white">
+                      <h1>Gun violence Analysis</h1>
+                      <p>Analysis deeper information about Gun violence</p>
+                    </div>
+                  </div>
+              
+                  <br>
+
+
+                <section class="row">
+                  <div class = "col-lg-4 col-md-6">
+                    <h4 class="header_state">State</h4>
+                    <select id="state_dropdown" onchange="stateChanged(this.value)" class="form-select" aria-label="Default select example"></select>
+                  </div>
+                </section>
+              </div>
+            <br>
+            <div class="row">
+              <div class="col-md-3">
+                <h4 class="header">2019</h4>
+                <div class="list-group" id="list-tab" role="tablist">
+                  <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="https://www.gunviolencearchive.org" target="popup" 
+                  onclick="window.open(`https://www.gunviolencearchive.org/incident/${worst_19}`,'popup','width=600,height=600');   
+                  return false;"> Open Link in Popup role="tab" aria-controls="list-home"</a>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <h4 class="header">2020</h4>
+                <div class="list-group" id="list-tab" role="tablist">
+                  <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="https://www.gunviolencearchive.org" target="popup" 
+                  onclick="window.open(`https://www.gunviolencearchive.org/incident/${worst_20}`,'popup','width=600,height=600');   
+                  return false;"> Open Link in Popup role="tab" aria-controls="list-home"</a>
+                  
+                </div>
+              </div>
+              <div class="col-md-3">
+                <h4 class="header">2021</h4>
+                <div class="list-group" id="list-tab" role="tablist">
+                  <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="https://www.gunviolencearchive.org" target="popup" 
+                  onclick="window.open(`https://www.gunviolencearchive.org/incident/${worst_21}`,'popup','width=600,height=600');   
+                  return false;"> Open Link in Popup role="tab" aria-controls="list-home"</a>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <h4 class="header">Overall</h4>
+                <div class="list-group" id="list-tab" role="tablist">
+                  <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="https://www.gunviolencearchive.org" target="popup" 
+                  onclick="window.open(`https://www.gunviolencearchive.org/incident/${worst_all}`,'popup','width=600,height=600');   
+                  return false;"> Open Link in Popup role="tab" aria-controls="list-home"</a>
+                </div>
+              </div>
+            </div>
+            <br>
+            <br>
+              <div class="container">
+                <section class="row">
+                    <div class="col-lg-12">
+                        <h3 class="header">Additional Visualizations</h3>
+                        <hr>
+                    </div>
+                    <section class="row">
+                      <div class="col-lg-6">
+                        <div id="gauge1"></div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div id="gauge2"></div>
+                      </div>
+                </section>
+              </div>
+            
+              <script src="https://d3js.org/d3.v5.min.js"></script>
+              <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+              <script src="js/analysis.js"></script>
+              <script src="js/state_cord_data.js"></script>
+          
+            
+
+        </section>
+        <!-- Call to action-->
+        <section class="page-section text-dark">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-12">
+                      <h2 class="project">Clusters Map</h2>
+                      <hr>
+                  </div>
+                  <div id="Cmap"></div>
+                </div>
+          
+                <br>
+          
+                <div class="row">
+                    <div class="col-md-12">
+                      <h2 class="project">Heat Map</h2>
+                      <hr>
+                  </div>
+                  <div id="Hmap"></div>
+                </div>
+                
+          
+          
+              </div>
+              <script type="text/javascript" src="js/clusters_map.js"></script>
+              <script type="text/javascript" src="js/heat_map.js"></script>
+
+        </section>
+        <!-- Contact-->
+        <section class="page-section bg-secondary" id="contact">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6 text-center text-white">
+                        <h2 class="mt-0">TEAM MEMBER</h2>
+                        <hr class="divider" />
+                        <p class="mb-5 text-center text-white">Contact our wonderful team members if you have any questions.</p>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                  <div class="col-md-2">
+                    <div class="text-center text-white">
+                      <h4>Dakota</h4>
+                    <img id="TM" src="https://ca.slack-edge.com/T022ZCD3GH4-U023YSSPN14-382b50555eee-512" class="rounded" alt="Dakota">
+                    </div>
+                  </div>
+                  <!-- Second float -->
+                  <div class="col-md-2">
+                    <div class="text-center text-white">
+                      <h4>Joyce</h4>
+                    <img id="TM" src="https://ca.slack-edge.com/T022ZCD3GH4-U0248K2R6EA-b7b24c77276e-512" class="rounded" alt="Joyce">
+                    </div>
+                  </div>
+          
+                  <!-- Third float -->
+                  <div class="col-md-2">
+                    <div class="text-center text-white">
+                      <h4>Sean</h4>
+                    <img id="TM" src="https://ca.slack-edge.com/T022ZCD3GH4-U023QQGRMGB-d5d853cf959f-512" class="rounded" alt="Sean">
+                    </div>
+                  </div>
+        
+                <!-- Four float -->
+                  <div class="col-md-2">
+                    <div class="text-center text-white">
+                      <h4>Trevor</h4>
+                    <img id="TM" src="https://ca.slack-edge.com/T022ZCD3GH4-U023L81RNCS-12c88f8bd0d9-512" class="rounded" alt="Trevor">
+                    </div>
+                  </div>
+        
+                <!-- Five float -->
+                  <div class="col-md-2">
+                    <div class="text-center text-white">
+                      <h4>Harold</h4>
+                    <img id="TM" src="https://ca.slack-edge.com/T022ZCD3GH4-U024TTJ8AKT-2c756747cece-512" class="rounded" alt="Harold">
+                    </div>
+                  </div>
+        
+                </div>
+                
+            </div>
+
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+              <div class="col-lg-8 col-xl-6 text-center text-white">
+                  <h2 class="mt-0">Around the Web</h2>
+                  <hr class="divider" />
+                  <a class="btn btn-outline-light btn-social mx-1" href="https://us-gun-sale-and-violence-report-api.azurewebsites.net/api/v1.0/gunsalebystate" target="_blank"><i class="fas fa-link"></i></a>
+                  <a class="btn btn-outline-light btn-social mx-1" href="https://us-gun-sale-and-violence-report-api.azurewebsites.net/api/v1.0/completedata" target="_blank"><i class="fas fa-file-csv"></i></a>
+                  <a class="btn btn-outline-light btn-social mx-1" href="https://us-gun-sale-and-violence-report-api.azurewebsites.net/api/v1.0/statecoords" target="_blank"><i class="far fa-file-code"></i></a>
+                  <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/dakotajcollins/Project-3-Gun_Violence" target="_blank"><i class="fab fa-github"></i></a>
+              </div>
+          </div>
+            
+        </section>
+        <!-- Footer-->
+        <footer class="bg-light py-5">
+            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2021 - BootCampUCI - TEAM3</div></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
