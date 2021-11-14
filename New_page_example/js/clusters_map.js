@@ -9,7 +9,7 @@ var myClustersMap = L.map("Cmap", {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(myClustersMap);
 
-  var url = "https://us-gun-sale-and-violence-report-api.azurewebsites.net/api/v1.0/completedata";
+  var url = "https://s3.us-west-2.amazonaws.com/bootcampproject3.joyce/response_completedata.json";
 
 // Get the data with d3.
 d3.json(url).then(function(response) {

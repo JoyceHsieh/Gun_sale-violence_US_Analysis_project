@@ -8,7 +8,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(myHeatMap);
 
-var url = "https://us-gun-sale-and-violence-report-api.azurewebsites.net/api/v1.0/completedata";
+var url = "https://s3.us-west-2.amazonaws.com/bootcampproject3.joyce/response_completedata.json";
 
 d3.json(url).then(function(heat) {
 

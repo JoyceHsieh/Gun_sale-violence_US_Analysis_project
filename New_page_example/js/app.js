@@ -2,8 +2,8 @@
 
 
 //Read the url input the data into State drop down select tag
-url="https://us-gun-sale-and-violence-report-api.azurewebsites.net/api/v1.0/gunsalebystate"
-var url_1 = "https://us-gun-sale-and-violence-report-api.azurewebsites.net/api/v1.0/completedata"
+url="https://s3.us-west-2.amazonaws.com/bootcampproject3.joyce/response_gunsalet.json"
+var url_1 = "https://s3.us-west-2.amazonaws.com/bootcampproject3.joyce/response_completedata.json"
 
 
 

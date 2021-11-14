@@ -1,5 +1,5 @@
-var url = "https://us-gun-sale-and-violence-report-api.azurewebsites.net/api/v1.0/completedata"
-var url_2 = "https://us-gun-sale-and-violence-report-api.azurewebsites.net/api/v1.0/statecoords"
+var url = "https://s3.us-west-2.amazonaws.com/bootcampproject3.joyce/response_completedata.json"
+var url_2 = "https://s3.us-west-2.amazonaws.com/bootcampproject3.joyce/response_statecoords.json"
 
 d3.json(url_2).then(function(data){
     console.log(data)
