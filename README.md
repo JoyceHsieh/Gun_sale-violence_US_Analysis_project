@@ -3,10 +3,10 @@
  
 ### ETL Process
 
-<p>The ETL Process was conducted in Trevor/ETL_main notebook.<p>
+<p>The ETL Process was conducted in Gun_violence.ipynb notebook.<p>
 
  ### Bar and Line Charting
- <p>The Bar and Line charts was conducted in app.js within Harold's folder.<p>
+ <p>The Bar and Line charts was conducted in app.js.<p>
   
- ### Dashboard Interactive Map
- <p>The code that is implented into the final website is within Sean's folder - It was then added into the website<p>
+## Check the website
+  https://s3.us-west-2.amazonaws.com/bootcampproject3.joyce/index.html
